@@ -3,10 +3,10 @@
 int main(void) {
 	int a,b,c,sum=0;
 	scanf("%d%d%d",&a,&b,&c);
-	for(int i=1;i<=a;i++)
+	for(int i=1;i<=c;i++)
 	{
-	sum=sum+c;
-	c=c+b;
+	sum=sum+a;
+	a=a+b;
 	}
             printf("%d",sum);
 	// your code goes here
